@@ -28,7 +28,7 @@
     margin-bottom: .1em;
 }
 
-#disclaimer h2,
+#disclaimer h2, 
 #disclaimer .event-date {
     color:var(--primary);
 }
@@ -91,7 +91,7 @@ border-radius: 5px;
 border: none;
 outline: none;
 cursor: pointer;
-border
+
 }
 
 .btn{
