@@ -70,22 +70,22 @@
 
 /*formulario */
 
-.form-group{
+form{
     display: flex;
     flex-direction:column ;
     margin-bottom: .8em;
     
 }
 
-.form-group label {
+ label {
     color:var(--text-secondary);
     margin-bottom: 0.3em;
     font-weight: bold;
     
 }
 
-.form-group imput,
-.form-group select { 
+ imput,
+ select { 
 padding: 6px 8px;
 border-radius: 5px;
 border: none;
@@ -94,7 +94,7 @@ cursor: pointer;
 
 }
 
-.btn{
+.button{
     background-color: var(--primary);
     color: var(--text-color);
     text-transform: uppercase;
@@ -106,7 +106,7 @@ cursor: pointer;
 
 }
 
-.btn:hover{
+.button:hover{
     opacity: 1;
 }
 

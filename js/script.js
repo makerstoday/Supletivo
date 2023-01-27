@@ -1,14 +1,15 @@
-const form = documentElementById("#form");
-const nameInput = documentElementById("#name");
-const emailInput = documentElementById("#email");
-const phoneInput = documentElementById("#phone");
-const interestSelect = documentElementById("#interest");
+const Form = document.querySelector("#form");
+const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("#email");
+const phoneInput = document.querySelector("#phone");
+const interestSelect = document.querySelector("#interest");
 
-form.addEnentListener("submit", (event) => {
+form.addEventListener("submit",(event) => {
     event.preventDeFault();
 
-    if(nameInput.value === "") {
+    if (emailInput.value  ("")) {
         alert("por favor");
         return;
     }
+    form.submit();
 })
