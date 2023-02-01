@@ -28,7 +28,7 @@ form.addEventListener("submit", (event) => {
     }   
 
 
-    // selecione huma opção valida
+    // selecione huma opção valida !!
     if (interestSelect.value === "" ) {
         alert("Por favor selecione uma opção!!");
         return;
