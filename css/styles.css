@@ -63,14 +63,14 @@
     max-width: 20%;
 }
 #subscription-form p {
-    font-size: 1.5em;
+    font-size: 1em;
     color:var(--text-secondary);
     margin-bottom: 1em;
 }
 
 /*formulario */
 
-form{
+#form{
     display: flex;
     flex-direction:column ;
     margin-bottom: .8em;
@@ -265,10 +265,12 @@ font-weight: bold;
 }
 #cta .btn{
     width: 30%;
+    border: none;
     margin: 0 auto;
+    border-bottom: none;
     font-weight: 600;
     font-size: 1.2em;
-    
+    background-color: #e613b1;
 }
 /* footer address */
 #footer {
